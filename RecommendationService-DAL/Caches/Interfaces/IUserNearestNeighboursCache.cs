@@ -1,6 +1,8 @@
 ﻿namespace RecommendationService_DAL.Caches.Interfaces;
 
-public class IUserNearestNeighboursCache
+public interface IUserNearestNeighboursCache : ICache
 {
-    
+    Task<List<long>> GetUserNearestNeighboursAsync(
+        long userId,
+        CancellationToken cancellationToken);
 }

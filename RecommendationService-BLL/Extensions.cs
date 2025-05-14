@@ -1,6 +1,15 @@
-﻿namespace RecommendationService_BLL;
+﻿using Microsoft.Extensions.DependencyInjection;
+using RecommendationService_BLL.Services;
+using RecommendationService_BLL.Services.Interfaces;
 
-public class Extensions
+namespace RecommendationService_BLL;
+
+public static class Extensions
 {
-    
+    public static IServiceCollection AddBll(this IServiceCollection services)
+    {
+        services.AddSingleton<IRecommendationService, RecommendationService>();
+
+        return services;
+    }
 }

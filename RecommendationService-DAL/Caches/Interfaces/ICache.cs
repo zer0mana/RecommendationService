@@ -1,6 +1,6 @@
 ﻿namespace RecommendationService_DAL.Caches.Interfaces;
 
-public class ICache
+public interface ICache
 {
-    
+    Task RefreshAsync(CancellationToken cancellationToken);
 }

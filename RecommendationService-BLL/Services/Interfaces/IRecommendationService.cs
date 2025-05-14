@@ -1,4 +1,4 @@
-﻿namespace RecommendationService_BLL.Services;
+﻿namespace RecommendationService_BLL.Services.Interfaces;
 
 public interface IRecommendationService
 {

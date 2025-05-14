@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService", "RecommendationService\RecommendationService.csproj", "{63FBF14D-52D9-49FB-AED7-934D80D0DC5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService-BLL", "RecommendationService-BLL\RecommendationService-BLL.csproj", "{C03B6EBD-2A5C-433A-98A5-55A7E6DD0B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationService-DAL", "RecommendationService-DAL\RecommendationService-DAL.csproj", "{93D61FD9-945E-42EB-A8A9-E3F5F3B378A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{63FBF14D-52D9-49FB-AED7-934D80D0DC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63FBF14D-52D9-49FB-AED7-934D80D0DC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63FBF14D-52D9-49FB-AED7-934D80D0DC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03B6EBD-2A5C-433A-98A5-55A7E6DD0B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03B6EBD-2A5C-433A-98A5-55A7E6DD0B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03B6EBD-2A5C-433A-98A5-55A7E6DD0B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03B6EBD-2A5C-433A-98A5-55A7E6DD0B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D61FD9-945E-42EB-A8A9-E3F5F3B378A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D61FD9-945E-42EB-A8A9-E3F5F3B378A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D61FD9-945E-42EB-A8A9-E3F5F3B378A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D61FD9-945E-42EB-A8A9-E3F5F3B378A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,8 @@
 ﻿namespace RecommendationService_DAL.Facades.Interfaces;
 
-public class IExternalFacade
+public interface IExternalFacade
 {
-    
+    Task<List<long>> GetUserNearestNeighboursAsync(
+        long userId,
+        CancellationToken cancellationToken);
 }
