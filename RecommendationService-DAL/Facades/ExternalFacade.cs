@@ -9,7 +9,7 @@ public class ExternalFacade : IExternalFacade
     
     public async Task<List<long>> GetUserNearestNeighboursAsync(long userId, CancellationToken cancellationToken)
     {
-        var url = $"http://localhost:5001/pyd-service/ToDoTaskInternal/neighbours/{userId}";
+        var url = $"http://pyd-service-app/pyd-service/ToDoTaskInternal/neighbours/{userId}";
 
         var request = new HttpRequestMessage(HttpMethod.Get, url);
 
